@@ -10,10 +10,10 @@ public class ProductsPage extends MenuPage {
 
 
         @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Zona de caída del carrito de compras\"]/android.view.ViewGroup/android.widget.TextView")
-        @iOSXCUITFindBy(xpath ="//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]")
+        @iOSXCUITFindBy(xpath ="")
         private MobileElement titleTxt;
 
-        @iOSXCUITFindBy (xpath = "//XCUIElementTypeOther[@name=\"test-PRODUCTS\"]/XCUIElementTypeScrollView")
+        @iOSXCUITFindBy (xpath = "")
         private MobileElement iOSSCrollView;
 
         public String getTitle() {

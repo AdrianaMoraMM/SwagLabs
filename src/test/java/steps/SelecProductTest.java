@@ -1,6 +1,6 @@
 package steps;
 
-import Pages.BasePage;
+
 import Pages.ProductsDetailsPage;
 import Pages.ProductsPage;
 import io.cucumber.java.en.Given;

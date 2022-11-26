@@ -25,12 +25,8 @@ public class ProductsDetailsPage extends MenuPage {
     //@iOSXCUITFindBy (id = "")
     private MobileElement backToProductsBtn;
 
-    @iOSXCUITFindBy (id = "test-Price")
-    private MobileElement iOSProductPrice;
-
     @AndroidFindBy (accessibility = "test-AÑADIR A CARRITO")
     private MobileElement addToCartBtn;
-    //@iOSXCUITFindBy (id = "test-ADD TO CART") private MobileElement addToCartBtn;
 
     public By addToCartBtn() throws Exception {
 
